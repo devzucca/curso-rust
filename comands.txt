@@ -1,0 +1,12 @@
+// ejecutar a mano
+rustc <nombre_archivo>.rs
+./<nombre_archivo>
+
+//ejecutar con cargo debug
+cargo run
+
+// compilacion release
+
+cargo build --release
+
+// se entra en el directorio release y se puede ejecutar ./<nombre_archivo>
